@@ -33,9 +33,18 @@ li {
     padding: 0;
 }
 
-a {
+html {
+    scroll-behavior: smooth;
+}
+
+.header-link {
     text-decoration: none;
     color: white;
+}
+
+.header-link:hover {
+    color: #18bdff;
+    transition: 0.2s;
 }
 
 .links {
@@ -59,19 +68,25 @@ img {
 
 .section-1 {
     height: 700px;
-    background: white;
+    /* background: white; */
     color: #1F2937;
     display: flex;
     justify-content: center;
     gap: 50px;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 400px;
+    background-image: url(https://stephenbayphotography.com/images/45/geisel-library-ucsd-54045.jpg);
+    background-size: cover;
 }
 
 .welcome-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 30px;
 }
 
 .welcome {
@@ -81,7 +96,11 @@ img {
 
 .welcome-subtext {
     font-size: 18px;
-    color: gray;
+}
+
+#placeholder-img {
+    border-radius: 10px;
+    filter: drop-shadow(15px 15px 5px black);
 }
 
 .section-2 {
@@ -116,4 +135,64 @@ img {
 .projectstext {
     font-size: 48px;
     font-weight: 600;
+}
+
+.section-3 {
+    height: 600px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 0 400px;
+    flex-direction: column;
+}
+
+.about-text {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.about-p {
+    font-size: 24px;
+}
+
+.section-4 {
+    height: 400px;
+    background: white;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 0 300px;
+    flex-direction: column;
+}
+
+.contact-text {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.contact-p, .contact-link {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.contact-link:hover {
+    color: #18bdff;
+    transition: 0.2s;
+}
+
+#github-icon, #linkedin-icon {
+    height: 26px;
+    width: auto;
+}
+
+.github-container, .linkedin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

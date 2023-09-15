@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="header">
-        <div>Landing Page</div>
+        <div>Julie Nguyen | Landing Page</div>
 
         <div class="links">
-            <li><a rel="noopener" href="#portfolio">Portfolio</a></li>
-            <li><a rel="noopener" href="#about">About</a></li>
-            <li><a rel="noopener" href="#contact">Contact</a></li>
+            <li><a class="header-link" rel="noopener" href="#portfolio">Portfolio</a></li>
+            <li><a class="header-link" rel="noopener" href="#about">About</a></li>
+            <li><a class="header-link" rel="noopener" href="#contact">Contact</a></li>
         </div>
     </div>
 
@@ -21,10 +21,10 @@
         <div class="welcome-container">
             <div class="welcome">Welcome!</div>
             <div class="welcome-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam quidem doloremque repellat itaque cum officiis vero quisquam! Aliquam quam consectetur eaque. Architecto tempora delectus, neque deserunt blanditiis cupiditate fugiat.</div>
-            <button class="linkprojectbutton"><a rel="noopener" href="#portfolio">Projects</a></button>
+            <button class="linkprojectbutton"><a class="header-link" rel="noopener" href="#portfolio">Projects</a></button>
         </div>
 
-        <img src="#" alt="placeholder for image">
+        <img id="placeholder-img" src="#" alt="placeholder for image">
     </div>
 
     <div id="portfolio" class="section-2">
@@ -54,11 +54,36 @@
     </div>
 
     <div id="about" class="section-3">
-        About
+        <div class="about-text">
+            About
+        </div>
+        
+        <div class="about-p">
+            <p>This is a simple landing page for Julie Nguyen's portfolio created using HTML and CSS!</p>
+            <p>_________________</p>
+            <b>Background:</b>
+            <p>I am currently a 2nd year computer science student studying at the University of California, San Diego. 
+                Additionally, I am a first-generation college student interested in connecting with others in the computer science field, and I'm seeking opportunities both in industry and academia.
+            </p>
+        </div>
     </div>
 
     <div id="contact" class="section-4">
-        Contact
+        <div class="contact-text">
+            Contact
+        </div>
+        
+        <div class="contact-p">
+            <div class="github-container">
+                <img id="github-icon" src="http://www.othercatt.com/images/github-icon.png " alt="GitHub icon">
+                <p>GitHub: <a class="contact-link" rel="noopener" target="_blank" href="https://github.com/nguyenjh">Nguyenjh</a></p>
+            </div>
+            
+            <div class="linkedin-container">
+                <img id="linkedin-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" alt="linkedIn icon">
+                <p>LinkedIn: <a class="contact-link" rel="noopener" target="_blank" href="https://www.linkedin.com/in/julie-h-nguyen/">Julie Nguyen</a></p>
+            </div>
+        </div>
     </div>
 
     <div class="footer">
