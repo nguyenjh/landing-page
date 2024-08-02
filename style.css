@@ -121,7 +121,7 @@ img {
 .projects {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -177,12 +177,12 @@ img {
 }
 
 #img-p2 {
-    background-image: url(https://cdn.discordapp.com/attachments/793015871979257896/1152504022092218368/Screen_Shot_2023-09-16_at_00.19.26.png?ex=66abdfc3&is=66aa8e43&hm=f0bf34faf7572ce283d3010b5717ec40c4250d025d1fc1eef1317d3447de4a64&);
+    background-image: url(https://cdn.discordapp.com/attachments/793015871979257896/1152504022092218368/Screen_Shot_2023-09-16_at_00.19.26.png?ex=66ad3143&is=66abdfc3&hm=d03e7ccd619357b0a09c28d27569cc99dff90e2053f3ed1d9637effc5505b2a6&);
     background-size: cover;
 }
 
 #img-p3 {
-    background-image: url(https://cdn.discordapp.com/attachments/793015871979257896/1268060451380658206/Screen_Shot_2024-07-30_at_21.19.26.png?ex=66ab0cd3&is=66a9bb53&hm=089c2c76859eed67f671364b53d4c9b4667e072fa6a1436af978271da2f6237d&);
+    background-image: url(https://cdn.discordapp.com/attachments/793015871979257896/1268060451380658206/Screen_Shot_2024-07-30_at_21.19.26.png?ex=66adafd3&is=66ac5e53&hm=ff2723ac6937576514ab82f572e19589c8a2fcab831e88f20c39683507edb15a&);
     background-size: cover;
 }
 
