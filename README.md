@@ -1,4 +1,4 @@
 # Portfolio
-A minimalistic website created to showcase my projects.
+A minimalistic portfolio website created to showcase Julie Nguyen's projects.
 
 Visit at https://nguyenjh.github.io/portfolio/
