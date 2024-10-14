@@ -1,4 +1,4 @@
-# landing-page
-A minimalistic landing page created using HTML and CSS to showcase my projects.
+# Portfolio
+A minimalistic portfolio website created to showcase Julie Nguyen's projects.
 
-Visit at https://nguyenjh.github.io/landing-page/
+Visit at https://nguyenjh.github.io/portfolio/
