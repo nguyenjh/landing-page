@@ -177,17 +177,17 @@ img {
 }
 
 #img-p2 {
-    background-image: url(./images/lost_royal_cat.png);
+    background-image: url(./images/taskrpg.png);
     background-size: cover;
 }
 
 #img-p3 {
-    background-image: url(./images/travel_serenity.png);
+    background-image: url(./images/lost_royal_cat.png);
     background-size: cover;
 }
 
 #img-p4 {
-    background-image: url(./images/taskrpg.png);
+    background-image: url(./images/travel_serenity.png);
     background-size: cover;
 }
 
